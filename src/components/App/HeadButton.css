@@ -1,0 +1,31 @@
+
+
+
+.redHeadButton,
+.headButton{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 10px;
+    border-radius: 3px;
+    color: #063366;
+    background-color: white;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.headButton.selected{
+    background-color: #063366;
+    color: white;
+}
+
+.headButton:hover{
+    background-color: #1F4B7A;
+    color: white;
+}
+
+.redHeadButton{
+    background-color: #8D152A;
+    color: white;
+}
+

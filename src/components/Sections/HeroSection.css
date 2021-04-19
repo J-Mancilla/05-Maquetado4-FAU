@@ -1,0 +1,63 @@
+
+
+.heroSection{
+    width: 100%;
+    height: 550px;
+    float: left;
+    position: relative;
+}
+
+.heroSection::after,
+.heroSection::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    clip-path: polygon(100% 0%, 0% 15%, 0% 100%, 100% 100%);
+}
+
+.heroSection::before{
+    background-image: url(../../img/Willkommen_1260x350.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -5;
+}
+
+.heroSection::after{
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(6, 51, 102, 0.7));
+    z-index: -4;
+}
+
+.heroSection .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.heroSection .content > h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    transition: all 1s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.heroSection .content > h1:hover{
+    transform: scale(1.05);
+}
+
+.heroSection .content > p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
