@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Head.css'
 import Dialog from './Dialog'
-import HeadButton from './HeadButton'
+import HeadButton from '../Buttons/HeadButton'
 
 import faulogo from '../../img/fau-logo-240x65.svg'
 

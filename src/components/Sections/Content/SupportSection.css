@@ -1,0 +1,29 @@
+
+
+.supportSection{
+    width: 30%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.supportSection h4{
+    font-size: 19px;
+    font-weight: 800;
+    color: #063366;
+    margin-bottom: 15px;
+}
+
+.supportSection img{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.supportSection p{
+    font-size: 12px;
+    font-weight: 500;
+    width: 45%;
+    float: left;
+    color: #4A4A4A;
+}

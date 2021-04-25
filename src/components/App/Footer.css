@@ -1,0 +1,28 @@
+
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #063366;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+footer :first-child,
+footer :last-child{
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+footer :first-child{
+    width: 10%;
+    background-image: url("../../img/logo-fau-inverse.png");
+}
+
+footer :last-child{
+    width: 25%;
+    background-image: url("../../img/footImg.png");
+}

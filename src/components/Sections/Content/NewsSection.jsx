@@ -1,5 +1,6 @@
 import React from 'react'
 import './NewsSection.css'
+import FillButton from '../../Buttons/FillButton'
 
 import new1 from '../../../img/new1.jpeg'
 import new2 from '../../../img/new2.jpeg'
@@ -14,6 +15,7 @@ const NewsSection = () => (
                 <NewCard title = {title} image = {image} description = {description} key = {`newCard${index}`}  />
             ))
         }
+        <FillButton text='More news'  />
     </section>
 )
 

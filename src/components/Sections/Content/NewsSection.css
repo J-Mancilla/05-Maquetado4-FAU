@@ -1,7 +1,11 @@
 
 .newsSection{
     width: 66%;
-    margin-right: 5%;
+    margin-right: 4%;
     float: left;
     position: relative;
+}
+
+.newsSection :last-child{
+    margin-top: 30px;
 }
